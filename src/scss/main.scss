@@ -1,0 +1,9 @@
+
+
+.parent {
+    background: light blue;
+
+    &.child {
+        background: green;
+    }
+}
