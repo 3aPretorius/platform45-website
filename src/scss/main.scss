@@ -1,9 +1,6 @@
+@import 'abstracts/fonts';
 
-
-.parent {
-    background: light blue;
-
-    &.child {
-        background: green;
-    }
+body {
+    color: blue;
+    font-size: $font-size;
 }
