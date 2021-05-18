@@ -1,6 +1,6 @@
-@import 'abstracts/fonts';
+@use '../scss/abstracts/' as *;
 
 body {
-    color: blue;
+    color: $primary;
     font-size: $font-size;
 }
